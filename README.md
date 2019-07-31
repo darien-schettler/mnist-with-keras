@@ -4,19 +4,18 @@ As the title suggests. This is a jupyter notebook that utilizes the tensorflow K
 
 ## Getting Started
 
-`
+```
 1. Clone this repository
 2. Create an environment (and activate it) and install the requirements.txt file
 3. Launch jupyter
 4. Open the file from the cloned repositry
 5. Enjoy
 
-See deployment for notes on how to deploy the project on a live system.
-`
+```
 
 ### Prerequisites
 
-`
+```
 cycler==0.10.0
 h5py==2.9.0
 Keras==2.2.4
@@ -31,8 +30,7 @@ python-dateutil==2.8.0
 PyYAML==5.1.1
 scipy==1.3.0
 six==1.12.0
-
-`
+```
 
 ### Installation
 **NOTE: all shell commands are via the windows command line... you can find alternatives for linux fairly easily**
@@ -51,4 +49,22 @@ six==1.12.0
 ` jupyter notebook --port=8888`<br>
 
 5. Navigate to the cloned directory and open the .ipynb file<br><br>
-See deployment for notes on how to deploy the project on a live system.
+***See deployment for notes on how to deploy the project on a live system.***
+
+### Deployment
+
+To deploy this on a system and leave it running, you will need to attach the jupyter instance to a seperate 'screen' in the terminal/cmd prompt. There are different ways of doing this but you should be able to find the appropriate documentation easily. <br>
+As this is a learning tool, there is no further information regarding deployment via docker, etc.
+
+### Contributing
+
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests.
+
+### Authors
+
+**Darien Schettler** -- [Portfolio](http://darienschettler.ca/) -- [Github](https://github.com/darien-schettler)
+
+
+### Licensing
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
