@@ -17,6 +17,20 @@ See deployment for notes on how to deploy the project on a live system.
 ### Prerequisites
 
 `
+cycler==0.10.0
+h5py==2.9.0
+Keras==2.2.4
+Keras-Applications==1.0.8
+Keras-Preprocessing==1.1.0
+kiwisolver==1.1.0
+matplotlib==3.1.1
+numpy==1.17.0
+opencv-contrib-python-headless==4.1.0.25
+pyparsing==2.4.2
+python-dateutil==2.8.0
+PyYAML==5.1.1
+scipy==1.3.0
+six==1.12.0
 
 `
 
@@ -25,17 +39,16 @@ See deployment for notes on how to deploy the project on a live system.
 
 1. Clone this repository and navigate into it within the command line
 
-2. Create and activate an environment (if you wish)
-` python -m venv env `
-` env\scripts\activate `
-` python -m pip install --upgrade pip `
+2. Create and activate an environment (if you wish)<br>
+` python -m venv env `<br>
+` env\scripts\activate `<br>
+` python -m pip install --upgrade pip `<br>
 
-3. Execute the following commands to install all the requiremets
-` pip install -r requirements.txt`
+3. Execute the following commands to install all the requiremets<br>
+` pip install -r requirements.txt`<br>
 
-4. To open the jupyter environment run the following
-` jupyter notebook --port=8888`
+4. To open the jupyter environment run the following<br>
+` jupyter notebook --port=8888`<br>
 
-5. Navigate to the cloned directory and open the .ipynb file
-
+5. Navigate to the cloned directory and open the .ipynb file<br><br>
 See deployment for notes on how to deploy the project on a live system.
